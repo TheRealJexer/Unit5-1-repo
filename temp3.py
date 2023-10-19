@@ -6,13 +6,11 @@ fahrenheit = 82
 
 def celcius_to_fahrenheit(celcius):
     conversion_formula = celcius * (9/5) + 32
-    print(f"25 degress celcius is {int(conversion_formula)} degrees fahrenheit.")
-    return celcius
+    return print(f"25 degress celcius is {int(conversion_formula)} degrees fahrenheit.")
 
 def fahrenheit_to_celcius(fahrenheit):
     conversion_formula1 = ((fahrenheit - 32) * 5) / 9
-    print(f"82 degress fahrenheit is {int(conversion_formula1)} degrees celcius. ")
-    return fahrenheit
+    return print(f"82 degress fahrenheit is {int(conversion_formula1)} degrees celcius. ")
 
 temp_fahrenheit = celcius_to_fahrenheit(celcius)
 temp_celcius = fahrenheit_to_celcius(fahrenheit)
